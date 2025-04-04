@@ -135,12 +135,12 @@ export default function Home() {
           </h1>
         </div>
 
-        {/* Logo */}
+        {/* Logo RUTA CASE SENSITIVE */}
         <div className="absolute right-[25%] md:top-1/2 top-[65%] -translate-y-1/2">
           <div className="w-[300px] h-[300px] bg-brutal-blue flex items-center justify-center">
             <div className="w-[250px] h-[250px] relative">
               <Image
-                src="/mapache.png"
+                src="/mapache.png" 
                 alt="KINSS X DEICA Mapache"
                 fill
                 className="object-contain"
