@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 0, 255;
+  --background-end-rgb: 255, 0, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+  cursor: crosshair;
+  overflow-x: hidden;
+}
+
+/* Gallery scrollbar */
+.gallery-scroll::-webkit-scrollbar {
+  width: 12px;
+}
+
+.gallery-scroll::-webkit-scrollbar-track {
+  background: #FF00FF;
+  border-left: 2px solid #0066FF;
+}
+
+.gallery-scroll::-webkit-scrollbar-thumb {
+  background: #0066FF;
+  border: 2px solid #FF00FF;
+}
+
+.gallery-scroll::-webkit-scrollbar-thumb:hover {
+  background: #0055DD;
+}
+
+/* Merch scrollbar */
+.merch-scroll::-webkit-scrollbar {
+  width: 12px;
+}
+
+.merch-scroll::-webkit-scrollbar-track {
+  background: #0066FF;
+  border-left: 2px solid #FF00FF;
+}
+
+.merch-scroll::-webkit-scrollbar-thumb {
+  background: #FF00FF;
+  border: 2px solid #0066FF;
+}
+
+.merch-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FF00DD;
+}
+
+@layer utilities {
+  .stroke-2 {
+    -webkit-text-stroke: 2px currentColor;
+  }
+}
+
+::selection {
+  background: #FF00FF;
+  color: #262525;
+} 
