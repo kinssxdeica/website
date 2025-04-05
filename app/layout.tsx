@@ -16,7 +16,7 @@ const archivoBlack = Archivo_Black({
 
 export const metadata: Metadata = {
   title: "KINSS X DEICA",
-  description: "Official website of Kinss x Deica",
+  description: "Página oficial de kinss x deica",
 };
 
 export default function RootLayout({

@@ -115,21 +115,21 @@ export default function Home() {
           <h1 className="text-[8rem] md:text-[15rem] leading-none font-bold" style={{
             color: 'transparent',
             WebkitTextStroke: '3px #0066FF',
-            fontFamily: 'Arial Black'
+            fontFamily: 'Arial Black, Helvetica, Impact, "Helvetica Neue", sans-serif'
           }}>
             KINSS
           </h1>
           <h1 className="text-[8rem] md:text-[15rem] leading-none font-bold md:ml-[5rem] ml-[2rem]" style={{
             color: 'transparent',
             WebkitTextStroke: '3px #0066FF',
-            fontFamily: 'Arial Black'
+            fontFamily: 'Arial Black, Helvetica, Impact, "Helvetica Neue", sans-serif'
           }}>
             X
           </h1>
           <h1 className="text-[8rem] md:text-[15rem] leading-none font-bold" style={{
             color: 'transparent',
             WebkitTextStroke: '3px #0066FF',
-            fontFamily: 'Arial Black'
+            fontFamily: 'Arial Black, Helvetica, Impact, "Helvetica Neue", sans-serif'
           }}>
             DEICA
           </h1>
