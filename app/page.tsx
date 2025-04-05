@@ -137,7 +137,7 @@ export default function Home() {
 
         {/* Logo RUTA CASE SENSITIVE */}
         <div className="absolute right-[25%] md:top-1/2 top-[65%] -translate-y-1/2">
-          <div className="w-[300px] h-[300px] bg-brutal-blue flex items-center justify-center">
+          <div className="w-[300px] h-[300px] bg-brutal-blue md:flex items-center justify-center hidden">
             <div className="w-[250px] h-[250px] relative">
               <Image
                 src="/mapache.png" 
@@ -147,6 +147,16 @@ export default function Home() {
                 priority
               />
             </div>
+          </div>
+          {/* Mobile version without blue square */}
+          <div className="w-[250px] h-[250px] relative md:hidden mobile-raccoon-animation">
+            <Image
+              src="/mapacheazul.png" 
+              alt="KINSS X DEICA Mapache"
+              fill
+              className="object-contain"
+              priority
+            />
           </div>
         </div>
       </div>

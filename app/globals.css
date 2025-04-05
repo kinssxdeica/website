@@ -59,6 +59,19 @@ body {
   }
 }
 
+@keyframes moveRaccoon {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.mobile-raccoon-animation {
+  animation: moveRaccoon 10s linear infinite;
+}
+
 ::selection {
   background: #FF00FF;
   color: #262525;
