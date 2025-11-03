@@ -17,6 +17,11 @@ const archivoBlack = Archivo_Black({
 export const metadata: Metadata = {
   title: "KINSS X DEICA",
   description: "Página oficial de kinss x deica",
+  icons: {
+    icon: "/mapacheazul.png",
+    shortcut: "/mapacheazul.png",
+    apple: "/mapacheazul.png",
+  },
 };
 
 export default function RootLayout({

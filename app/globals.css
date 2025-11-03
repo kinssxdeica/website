@@ -21,17 +21,17 @@ body {
 }
 
 .gallery-scroll::-webkit-scrollbar-track {
-  background: #FF00FF;
-  border-left: 2px solid #0066FF;
+  background: #F867DE;
+  border-left: 2px solid #3376F8;
 }
 
 .gallery-scroll::-webkit-scrollbar-thumb {
   background: #0066FF;
-  border: 2px solid #FF00FF;
+  border: 2px solid #F867DE;
 }
 
 .gallery-scroll::-webkit-scrollbar-thumb:hover {
-  background: #0055DD;
+  background: #3376F8;
 }
 
 /* Merch scrollbar */
@@ -40,17 +40,17 @@ body {
 }
 
 .merch-scroll::-webkit-scrollbar-track {
-  background: #0066FF;
-  border-left: 2px solid #FF00FF;
+  background: #3376F8;
+  border-left: 2px solid #F867DE;
 }
 
 .merch-scroll::-webkit-scrollbar-thumb {
-  background: #FF00FF;
-  border: 2px solid #0066FF;
+  background: #F867DE;
+  border: 2px solid #3376F8;
 }
 
 .merch-scroll::-webkit-scrollbar-thumb:hover {
-  background: #FF00DD;
+  background: #F867DE;
 }
 
 @layer utilities {
@@ -82,6 +82,24 @@ body {
 }
 
 ::selection {
-  background: #FF00FF;
+  background: #F867DE;
   color: #262525;
 } 
+
+.bg-brutal-pink {
+  background: #F867DE;
+}
+
+.text-brutal-pink {
+  color: #F867DE;
+}
+
+.text-brutal-blue {
+  color: #3376F8;
+}
+
+.bg-brutal-blue {
+  background: #3376F8;
+}
+
+
